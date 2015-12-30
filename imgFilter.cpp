@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace cv;
-
+/*
 int main() {
     //Mat img = imread("image.jpg", CV_LOAD_IMAGE_GRAYSCALE), img_filtered;
     Mat img = imread("image.jpg"), img_filtered;
@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+*/

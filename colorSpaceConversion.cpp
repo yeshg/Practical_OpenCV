@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace cv;
-
+/*
 // Global variables
 const int slider_max = 1; // Int for maximum slider position 0 - 1 (color and grayscale)
 int slider;					// Int for current slider position
@@ -23,7 +23,7 @@ void on_trackbar(int pos, void *) {	  //
 
 	imshow("Trackbar app", img_converted);
 }
-/*
+
 int main() {
 	img = imread("Image.jpg");	// Read image
 

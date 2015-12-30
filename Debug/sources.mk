@@ -23,7 +23,5 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-Chapters_1-4 \
 . \
-Chapter_5 \
 
