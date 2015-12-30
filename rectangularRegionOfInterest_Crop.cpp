@@ -1,6 +1,6 @@
 // Program to crop images using GUI mouse callbacks
 // Author: Samarth Manoj Brahmbhatt, University of Pennsylvania
-
+/*
 #include <iostream>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
@@ -17,7 +17,7 @@ Mat img;
 Point corner1, corner2;
 // ROI
 Rect box;
-/*
+
 // Callback function for mouse events
 static void mouse_callback(int event, int x, int y, int, void *) {
 	if (event == EVENT_LBUTTONDOWN) {
@@ -83,4 +83,5 @@ int main() {
 
 	return 0;
 }
+
 */
