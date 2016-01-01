@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace cv;
-
+/*
 Mat edges, edges_thresholded;
 int slider = 50;
 
@@ -60,3 +60,4 @@ int main() {
 
     return 0;
 }
+*/
