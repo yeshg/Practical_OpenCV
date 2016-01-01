@@ -8,9 +8,10 @@
 using namespace std;
 using namespace cv;
 
+/*
 Mat image, image_processed;
 int choice_slider = 0, size_slider = 5; // 0 - erode, 1 - dilate
-/*
+
 void process() {
     Mat st_elem = getStructuringElement(MORPH_RECT, Size(size_slider, size_slider));
 

@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 using namespace cv;
-
+/*
 /// Global variables
 
 Mat src, src_gray;
@@ -17,10 +17,7 @@ int ratio = 3;
 int kernel_size = 3;
 char* window_name = "Edge Map";
 
-/**
- * @function CannyThreshold
- * @brief Trackbar callback - Canny thresholds input with a ratio 1:3
- */
+
 void CannyThreshold(int, void*)
 {
   /// Reduce noise with a kernel 3x3
@@ -37,7 +34,6 @@ void CannyThreshold(int, void*)
  }
 
 
-/** @function main */
 int main( int argc, char** argv )
 {
   /// Load an image
@@ -66,3 +62,4 @@ int main( int argc, char** argv )
 
   return 0;
   }
+*/
