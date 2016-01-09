@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace cv;
-
+/*
 Mat img;
 vector<vector<Point> > contours;
 vector<Vec4i> heirarchy;
@@ -25,7 +25,7 @@ void on_trackbar(int, void *) {
 }
 
 int main() {
-    img = imread("circles.jpg");
+    img = imread("bullseye.jpg");
 
     Mat img_b;
     cvtColor(img, img_b, CV_RGB2GRAY);
@@ -46,3 +46,4 @@ int main() {
 
     return 0;
 }
+*/
