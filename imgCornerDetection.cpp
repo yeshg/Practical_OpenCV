@@ -8,7 +8,7 @@
 
 using namespace std;
 using namespace cv;
-
+/*
 Mat image, image_gray;
 int max_corners = 20;
 
@@ -52,3 +52,4 @@ int main() {
 
 	return 0;
 }
+*/
