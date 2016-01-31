@@ -1,6 +1,6 @@
 // Program to illustrate line and circle detection using Hough transform
 // Author: Samarth Manoj Brahmbhatt, University of Pennsylvania
-
+/*
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
@@ -21,7 +21,7 @@ void on_trackbar(int, void *) { // Circles
         HoughCircles(img_gray, circles, CV_HOUGH_GRADIENT, 1, 10, 100, thresh, 5);
         // Draw circles
         Mat img_show = img.clone();
-        for(int i = 0; i < circles.size(); i++) {
+        for(int i = 0; i < circles.size(); i+k+) {
             Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
             int radius = cvRound(circles[i][2]);
             // draw the circle center
@@ -68,3 +68,4 @@ int main() {
 
     return 0;
 }
+*/
